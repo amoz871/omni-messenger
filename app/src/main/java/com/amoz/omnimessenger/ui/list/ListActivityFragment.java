@@ -1,10 +1,12 @@
-package com.amoz.omnimessenger;
+package com.amoz.omnimessenger.ui.list;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.amoz.omnimessenger.R;
 
 /**
  * A placeholder fragment containing a simple view.
