@@ -1,7 +1,6 @@
 # =========================
 # Gradle files
 # =========================
-build.gradle
 gradle
 gradle.properties
 gradlew
