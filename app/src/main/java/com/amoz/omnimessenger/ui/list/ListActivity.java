@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.amoz.omnimessenger.R;
 import com.amoz.omnimessenger.ui.common.BaseActivity;
+import com.amoz.omnimessenger.util.Log;
 
 public class ListActivity extends BaseActivity {
 
@@ -19,6 +20,7 @@ public class ListActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("ListActivity created");
         setContentView(R.layout.list_activity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
